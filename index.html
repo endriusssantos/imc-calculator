@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora IMC</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+  </head>
+  <body>
+    <main class="imc-app">
+      <div class="imc-container">
+        <h1 class="title-app">Calculadora IMC</h1>
+        <form class="form" id="form">
+          <label for="weight" class="weight">Peso (kg)</label>
+          <input type="text" id="weight" placeholder="Ex: 70" />
+          <label for="height" class="height">Altura (cm)</label>
+          <input type="text" id="height" placeholder="Ex: 1,75" />
+          <div class="btn-container">
+            <button class="calculate" type="submit">Calcular</button>
+            <button class="restart" id="btn-restart" type="button">
+              Reiniciar
+            </button>
+          </div>
+        </form>
+        <section class="result-container" id="result-container"></section>
+      </div>
+    </main>
+    <script src="./src/js/script.js"></script>
+  </body>
+</html>

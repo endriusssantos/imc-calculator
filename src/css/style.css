@@ -1,0 +1,88 @@
+.imc-app {
+  background: #2ad1b0;
+  background: linear-gradient(
+    90deg,
+    rgba(42, 209, 176, 1) 0%,
+    rgba(31, 155, 180, 1) 50%,
+    rgba(20, 135, 184, 1) 100%
+  );
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imc-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 2rem;
+  margin: 2rem;
+  border-radius: 2rem;
+}
+
+.title-app {
+  font-size: 2.6rem;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.weight,
+.height {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+
+.restart {
+  background-color: #505050;
+  color: #ffffff;
+}
+
+.restart:hover {
+  background-color: #333333;
+}
+
+.calculate {
+  background-color: #5bcaca;
+  color: #ffffff;
+}
+
+.calculate:hover {
+  background-color: #4aa5a5;
+}
+
+.result-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.title-result {
+  font-size: 1.8rem;
+}
+
+.result {
+  font-size: 4.5rem;
+  font-weight: 600;
+}
+
+.phrase-result {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
