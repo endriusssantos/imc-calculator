@@ -62,7 +62,7 @@ git clone https://github.com/seu-usuario/calculadora-imc.git
 2. Acesse a pasta do projeto:
 
 ```bash
-cd calculadora-imc
+cd imc-calculator
 ```
 
 3. Abra o arquivo index.html no seu navegador.
